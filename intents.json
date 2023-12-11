@@ -1,0 +1,220 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "qué tal", "cómo estás", "saludos"],
+      "responses": [
+        "Hola!",
+        "Buenos días!",
+        "¿Cómo estás?",
+        "Hola, ¿en que puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["cual es tu nombre", "como te llamas", "que eres"],
+      "responses": [
+        "Mi nombre es CDAM BOT",
+        "Hola, me llamo CDAM BOT",
+        "Soy un chatbot de la empresa CDAM"
+      ]
+    },
+    {
+      "tag": "gracias",
+      "patterns": ["gracias", "bien", "genial", "perfecto", "gracias por la ayuda"],
+      "responses": ["De nada, si hay otra cosa en la que te puedo ayudar no dudes en consultarme."]
+    },
+    {
+      "tag": "adios",
+      "patterns": ["adios", "nos vemos", "hasta luego"],
+      "responses": ["Adios.", "Nos vemos, gracias por conversar.", "Hasta luego."]
+    },
+    {
+      "tag": "que_es_visa_temporaria",
+      "patterns": [
+        "que es la visa temporaria",
+        "para quienes es la visa temporaria",
+        "cual es el proposito de la visa temporaria",
+        "que proposito tiene la visa temporaria"
+      ],
+      "responses": [
+        "Es un visado dirigido al extranjero que viaja con el propósito de radicarse en Chile, por tener vínculos familiares, interés en el país o cuya residencia sea útil o ventajosa para Chile"
+      ]
+    },
+    {
+      "tag": "obtencion_de_la_visa_temporaria",
+      "patterns": [
+        "donde obtengo la visa temporaria",
+        "donde consigo la visa temporaria",
+        "quien me puede dar una visa temporaria",
+        "en que lugar puedo obtener la visa temporaria",
+        "en que ministerio puedo obtener la visa temporaria",
+        "donde se realiza la visa temporaria"
+      ],
+      "responses": [
+        " - Consulados de Chile en el extranjero \n - Departamento de Inmigración del Ministerio de Relaciones Exteriores, analiza los datos del solicitante."
+      ]
+    },
+    {
+      "tag": "para_quienes_es_la_visa_temporaria",
+      "patterns": [
+        "para quienes es la visa temporaria",
+        "para quienes esta dirigido la visa temporaria",
+        "a quien esta dirigido la visa temporaria"
+      ],
+      "responses": [
+        "Está dirigido a los extranjeros, padres, cónyuges e hijos de residentes."
+      ]
+    },
+    {
+      "tag": "para_que_sirve_la_visa_temporaria",
+      "patterns": [
+        "para que sirve la visa temporal", 
+        "que utilidad tiene la visa temporaria",
+        "que beneficios tiene la visa temporaria",
+        "que me permite hacer la visa temporaria",
+        "que puedo realizar con la visa temporaria"
+      ],
+      "responses": [
+        "La visa temporaria Permite trabajar, estudiar y/o realizar actividades comerciales, plazo máximo de duración un año. Existe también la Visa de Residente Temporario Dependiente, la cual se otorga a la familia del titular y no permite trabajar, plazo máximo de duración un año."
+      ]
+    },
+    {
+      "tag": "duracion_de_la_visa_temporaria",
+      "patterns": [
+        "cuanto tiempo dura la visa temporaria",
+        "cual es el maximo de tiempo de la visa temporaria",
+        "duracion de la visa temporaria",
+        "duracion maxima de la visa temporaria"
+      ],
+      "responses": [
+        "La visa temporaria tiene una duración de máximo de duración un año."
+      ]
+    },
+    {
+      "tag": "requisitos_de_la_visa_temporaria",
+      "patterns": [
+        "requisitos de la visa temporal",
+        "que papeles necesito para la visa temporaria",
+        "que documentos necesito para la visa temporaria",
+        "pasos para la visa temporaria"
+      ],
+      "responses": [
+        " - Carta dirigida al Cónsulado, señalando los motivos de avecindamiento. \n  - Certificado de Antecedentes Penales. \n - Certificado Médico \n - Pasaporte vigente. \n - 4 fotos tamaño pasaporte. \n - Certificado de Parentesco cuando se trata de un familiar. \n - Si viaja a realizar su práctica profesional, debe tener compromiso de los padres o tutor de respaldarlo económicamente."
+      ]
+    },
+    {
+      "tag": "obtencion_pasaporte_chileno",
+      "patterns": [
+        "obtener pasaporte chileno",
+        "solicitar pasaporte en el exterior",
+        "que es el pasaporte chileno"
+      ],
+      "responses": [
+        "Permite que chilenos en el exterior puedan solicitar un pasaporte en caso de pérdida, robo, hurto o vencimiento del documento. El trámite se puede realizar durante todo el año."
+      ]
+    },
+    {
+      "tag": "dirigido_pasaporte_chileno",
+      "patterns": [
+        "a quién está dirigido el trámite de pasaporte chileno",
+        "quienes pueden obtener el pasaporte chileno en el exterior",
+        "personas que pueden solicitar pasaporte chileno en el extranjero"
+      ],
+      "responses": [
+        "Chilenos que se encuentran en el exterior."
+      ]
+    },
+    {
+      "tag": "requisitos_pasaporte_chileno",
+      "patterns": [
+        "qué necesito para el trámite del pasaporte chileno",
+        "documentos necesarios para pasaporte chileno en el extranjero",
+        "requisitos para renovar pasaporte chileno",
+        "que papeles necesito para el pasaporte chileno"
+      ],
+      "responses": [
+        "- Acreditar la nacionalidad chilena, a través de la cédula de identidad o pasaporte anterior. \n - Cédula de identidad vigente. Si expiró, el beneficiario tiene que tramitar ambos documentos. \n- Los menores de 18 años deben presentarse con ambos padres. En caso contrario, con la autorización notarial del progenitor ausente, o la copia de la sentencia del cuidado personal del menor. \n- En caso de extravío, robo o hurto del documento, se requerirá la denuncia policial respectiva si el país permite realizar tal trámite."
+      ]
+    },
+    {
+      "tag": "como_hacer_tramite_pasaporte",
+      "patterns": [
+        "cómo y dónde hacer el trámite de pasaporte chileno",
+        "procedimiento para solicitar pasaporte chileno en el extranjero",
+        "dónde solicitar pasaporte chileno"
+      ],
+      "responses": [
+        "Tome contacto con el consulado chileno ( https://www.consulado.gob.cl/redes/chile-en-el-mundo ) respectivo a efectos de agendar cita para la solicitud de un pasaporte ordinario."
+      ]
+    },
+    {
+      "tag": "plazos_entrega_pasaporte_chileno",
+      "patterns": [
+        "cuánto tiempo tarda la entrega del pasaporte chileno en el extranjero",
+        "plazos para obtener pasaporte chileno en consulado",
+        "tiempo de espera para recibir pasaporte chileno"
+      ],
+      "responses": [
+        "Si el consulado cuenta con estación de captura (Sistema de identificación en línea), obtendrá el documento en aproximadamente un mes, plazo que puede fluctuar. Si la oficina consular no tiene máquina de captura, al interesado le tomarán canje de Impresiones Dactilares (huellas) en un formulario de solicitud manual que será remitido al Servicio de Registro Civil de Santiago (SRCel), trámite que puede demorar estimativamente tres meses o más."
+      ]
+    },
+    {
+      "tag": "costo_pasaporte_chileno",
+      "patterns": [
+        "costo del pasaporte chileno",
+        "cuánto cuesta el pasaporte chileno en el extranjero",
+        "tarifas para obtener pasaporte chileno en consulado",
+        "precio del pasaporte chileno",
+        "precio de los documentos de los tramites del pasaporte chileno"
+      ],
+      "responses": [
+        "- Pasaporte de 32 páginas: US$ 91 o su equivalente en moneda local. \n- Pasaporte de 64 páginas: US$ 92 o su equivalente en moneda local. \n- Los valores indicados mantienen el arancel consular adicional de US$ 3. \n- Importante: estos costos pueden variar, según las alzas que determine el Servicio de Registro Civil e Identificación (SRCeI) y la fluctuación del dólar americano."
+      ]
+    },
+    {
+      "tag": "renovacion_pasaporte_chileno",
+      "patterns": [
+        "cómo renovar el pasaporte chileno en el extranjero",
+        "renovar pasaporte chileno en consulado",
+        "renovación de pasaporte chileno"
+      ],
+      "responses": [
+        "El trámite se puede realizar durante todo el año. El pasaporte chileno tiene una vigencia de 5 años. Si el documento está vencido, el interesado debe solicitar un nuevo pasaporte. Si el pasaporte está vigente, el interesado puede solicitar un nuevo pasaporte."
+      ]
+    },
+    {
+      "tag": "desde_aqui_pasaporte_chileno_vencido",
+      "patterns": [
+        "qué hacer si el pasaporte chileno está vencido",
+        "pasaporte chileno vencido",
+        "pasaporte chileno vencido en el extranjero"
+      ],
+      "responses": [
+        "Si el pasaporte está vencido, el interesado debe solicitar un nuevo pasaporte. Si el pasaporte está vigente, el interesado puede solicitar un nuevo pasaporte."
+      ]
+    },
+    {
+      "tag": "pasaporte_chileno_perdido",
+      "patterns": [
+        "qué hacer si el pasaporte chileno está perdido",
+        "pasaporte chileno perdido",
+        "pasaporte chileno perdido en el extranjero"
+      ],
+      "responses": [
+        "Si el pasaporte está perdido, el interesado debe solicitar un nuevo pasaporte."
+      ]
+    },
+    {
+      "tag": "pasaporte_chileno_robado",
+      "patterns": [
+        "qué hacer si el pasaporte chileno está robado",
+        "pasaporte chileno robado",
+        "pasaporte chileno robado en el extranjero"
+      ],
+      "responses": [
+        "Si el pasaporte está robado, el interesado debe solicitar un nuevo pasaporte."
+      ]
+    }
+  ]
+}
