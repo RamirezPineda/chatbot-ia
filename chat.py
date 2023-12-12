@@ -68,13 +68,13 @@ def chat(sentence: str):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if prob.item() > 0.65:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                # print(f"{bot_name}: {random.choice(intent['responses'])}")
                 response = random.choice(intent['responses'])
     else:
-        print(f"{bot_name}: ¡Hola! Claro, estaré encantado de ayudarte. Por favor, reformula tu pregunta para que pueda entenderla mejor y proporcionarte la información que necesitas. ¡Estoy aquí para ayudar! 😊")
+        # print(f"{bot_name}: ¡Hola! Claro, estaré encantado de ayudarte. Por favor, reformula tu pregunta para que pueda entenderla mejor y proporcionarte la información que necesitas. ¡Estoy aquí para ayudar! 😊")
         response = "¡Hola! Claro, estaré encantado de ayudarte. Por favor, reformula tu pregunta para que pueda entenderla mejor y proporcionarte la información que necesitas. ¡Estoy aquí para ayudar! 😊"
 
     return response

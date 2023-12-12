@@ -32,6 +32,7 @@
     {
       "tag": "que_es_visa_temporaria",
       "patterns": [
+        "visa temporaria",
         "que es la visa temporaria",
         "para quienes es la visa temporaria",
         "cual es el proposito de la visa temporaria",
@@ -44,6 +45,7 @@
     {
       "tag": "obtencion_de_la_visa_temporaria",
       "patterns": [
+        "obtencion visa temporaria",
         "donde obtengo la visa temporaria",
         "donde consigo la visa temporaria",
         "quien me puede dar una visa temporaria",
@@ -82,6 +84,7 @@
     {
       "tag": "duracion_de_la_visa_temporaria",
       "patterns": [
+        "duracion visa temporaria",
         "cuanto tiempo dura la visa temporaria",
         "cual es el maximo de tiempo de la visa temporaria",
         "duracion de la visa temporaria",
@@ -94,6 +97,7 @@
     {
       "tag": "requisitos_de_la_visa_temporaria",
       "patterns": [
+        "requisitos visa temporaria",
         "requisitos de la visa temporal",
         "que papeles necesito para la visa temporaria",
         "que documentos necesito para la visa temporaria",
@@ -106,6 +110,7 @@
     {
       "tag": "obtencion_pasaporte_chileno",
       "patterns": [
+        "obtencion pasaporte chileno",
         "obtener pasaporte chileno",
         "solicitar pasaporte en el exterior",
         "que es el pasaporte chileno"
@@ -117,7 +122,7 @@
     {
       "tag": "dirigido_pasaporte_chileno",
       "patterns": [
-        "a quién está dirigido el trámite de pasaporte chileno",
+        "a quien esta dirigido el tramite de pasaporte chileno",
         "quienes pueden obtener el pasaporte chileno en el exterior",
         "personas que pueden solicitar pasaporte chileno en el extranjero"
       ],
@@ -128,7 +133,10 @@
     {
       "tag": "requisitos_pasaporte_chileno",
       "patterns": [
-        "qué necesito para el trámite del pasaporte chileno",
+        "requisitos pasaporte chileno",
+        "requisitos para el pasaporte chileno",
+        "que necesito para el tramite del pasaporte chileno",
+        "documentacion pasaporte chileno",
         "documentos necesarios para pasaporte chileno en el extranjero",
         "requisitos para renovar pasaporte chileno",
         "que papeles necesito para el pasaporte chileno"
@@ -140,9 +148,11 @@
     {
       "tag": "como_hacer_tramite_pasaporte",
       "patterns": [
-        "cómo y dónde hacer el trámite de pasaporte chileno",
+        "tramite pasaporte chileno",
+        "como y donde hacer el trámite de pasaporte chileno",
         "procedimiento para solicitar pasaporte chileno en el extranjero",
-        "dónde solicitar pasaporte chileno"
+        "donde solicitar pasaporte chileno",
+        "solicitar pasaporte chileno"
       ],
       "responses": [
         "Tome contacto con el consulado chileno ( https://www.consulado.gob.cl/redes/chile-en-el-mundo ) respectivo a efectos de agendar cita para la solicitud de un pasaporte ordinario."
@@ -151,7 +161,8 @@
     {
       "tag": "plazos_entrega_pasaporte_chileno",
       "patterns": [
-        "cuánto tiempo tarda la entrega del pasaporte chileno en el extranjero",
+        "plazo de entrega pasaporte chileno",
+        "cuanto tiempo tarda la entrega del pasaporte chileno en el extranjero",
         "plazos para obtener pasaporte chileno en consulado",
         "tiempo de espera para recibir pasaporte chileno"
       ],
@@ -163,7 +174,7 @@
       "tag": "costo_pasaporte_chileno",
       "patterns": [
         "costo del pasaporte chileno",
-        "cuánto cuesta el pasaporte chileno en el extranjero",
+        "cuanto cuesta el pasaporte chileno en el extranjero",
         "tarifas para obtener pasaporte chileno en consulado",
         "precio del pasaporte chileno",
         "precio de los documentos de los tramites del pasaporte chileno"
@@ -175,9 +186,9 @@
     {
       "tag": "renovacion_pasaporte_chileno",
       "patterns": [
-        "cómo renovar el pasaporte chileno en el extranjero",
+        "como renovar el pasaporte chileno en el extranjero",
         "renovar pasaporte chileno en consulado",
-        "renovación de pasaporte chileno"
+        "renovacion de pasaporte chileno"
       ],
       "responses": [
         "El trámite se puede realizar durante todo el año. El pasaporte chileno tiene una vigencia de 5 años. Si el documento está vencido, el interesado debe solicitar un nuevo pasaporte. Si el pasaporte está vigente, el interesado puede solicitar un nuevo pasaporte."
@@ -186,7 +197,7 @@
     {
       "tag": "desde_aqui_pasaporte_chileno_vencido",
       "patterns": [
-        "qué hacer si el pasaporte chileno está vencido",
+        "que hacer si el pasaporte chileno esta vencido",
         "pasaporte chileno vencido",
         "pasaporte chileno vencido en el extranjero"
       ],
@@ -197,23 +208,23 @@
     {
       "tag": "pasaporte_chileno_perdido",
       "patterns": [
-        "qué hacer si el pasaporte chileno está perdido",
+        "que hacer si el pasaporte chileno esta perdido",
         "pasaporte chileno perdido",
         "pasaporte chileno perdido en el extranjero"
       ],
       "responses": [
-        "Si el pasaporte está perdido, el interesado debe solicitar un nuevo pasaporte."
+        "Si el pasaporte está perdido, el interesado debe solicitar un nuevo pasaporte en el consulado."
       ]
     },
     {
       "tag": "pasaporte_chileno_robado",
       "patterns": [
-        "qué hacer si el pasaporte chileno está robado",
+        "que hacer si el pasaporte chileno esta robado",
         "pasaporte chileno robado",
         "pasaporte chileno robado en el extranjero"
       ],
       "responses": [
-        "Si el pasaporte está robado, el interesado debe solicitar un nuevo pasaporte."
+        "Si el pasaporte está robado, el interesado debe solicitar un nuevo pasaporte en el consulado."
       ]
     }
   ]
