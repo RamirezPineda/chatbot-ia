@@ -7,3 +7,5 @@ python3 train.py
 ```
 uvicorn main:app --reload
 ```
+
+--default-timeout=1000

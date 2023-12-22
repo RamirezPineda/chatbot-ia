@@ -2,229 +2,162 @@
   "intents": [
     {
       "tag": "saludo",
-      "patterns": ["hola", "qué tal", "cómo estás", "saludos"],
+      "patterns": ["hola", "que tal", "como estas", "saludos", "buenos dias"],
       "responses": [
-        "Hola!",
-        "Buenos días!",
-        "¿Cómo estás?",
-        "Hola, ¿en que puedo ayudarte?"
+        "Hola, ¿Cómo estás?",
+        "¡Hola! ¿En qué puedo ayudarte hoy?",
+        "¡Buenos días! ¿Cómo puedo asistirte?"
       ]
     },
     {
       "tag": "nombre",
-      "patterns": ["cual es tu nombre", "como te llamas", "que eres"],
+      "patterns": ["cual es tu nombre", "como te llamas", "que eres", "quien eres"],
       "responses": [
-        "Mi nombre es CDAM BOT",
-        "Hola, me llamo CDAM BOT",
-        "Soy un chatbot de la empresa CDAM"
+        "Soy Alexa, tu asistente virtual de System For All.",
+        "¡Hola! Soy Alexa, el chatbot de System For All. ¿En qué puedo ayudarte hoy?",
+        "Mi nombre es Alexa, estoy aquí para ayudarte con cualquier pregunta."
       ]
     },
     {
       "tag": "gracias",
       "patterns": ["gracias", "bien", "genial", "perfecto", "gracias por la ayuda"],
-      "responses": ["De nada, si hay otra cosa en la que te puedo ayudar no dudes en consultarme."]
+      "responses": [
+        "De nada, ¡siempre estoy aquí para ayudar!",
+        "¡Genial! ¿Hay algo más en lo que pueda asistirte?",
+        "¡Perfecto! Si necesitas más ayuda, no dudes en preguntar."
+      ]
     },
     {
       "tag": "adios",
       "patterns": ["adios", "nos vemos", "hasta luego"],
-      "responses": ["Adios.", "Nos vemos, gracias por conversar.", "Hasta luego."]
-    },
-    {
-      "tag": "que_es_visa_temporaria",
-      "patterns": [
-        "visa temporaria",
-        "que es la visa temporaria",
-        "para quienes es la visa temporaria",
-        "cual es el proposito de la visa temporaria",
-        "que proposito tiene la visa temporaria"
-      ],
       "responses": [
-        "Es un visado dirigido al extranjero que viaja con el propósito de radicarse en Chile, por tener vínculos familiares, interés en el país o cuya residencia sea útil o ventajosa para Chile"
+        "¡Adiós! Siempre estoy aquí cuando lo necesites.",
+        "Hasta luego, ¡que tengas un gran día!",
+        "Nos vemos pronto. ¡Gracias por la conversación!"
       ]
     },
     {
-      "tag": "obtencion_de_la_visa_temporaria",
+      "tag": "acerca_de_nosotros",
       "patterns": [
-        "obtencion visa temporaria",
-        "donde obtengo la visa temporaria",
-        "donde consigo la visa temporaria",
-        "quien me puede dar una visa temporaria",
-        "en que lugar puedo obtener la visa temporaria",
-        "en que ministerio puedo obtener la visa temporaria",
-        "donde se realiza la visa temporaria"
+        "que es system for all",
+        "para que sirve system for all",
+        "cuentame algo acerca de system for all",
+        "informacion sobre system for all",
+        "informacion sobre la empresa",
+        "acerca de la empresa",
+        "acerca de system for all"
       ],
       "responses": [
-        " - Consulados de Chile en el extranjero \n - Departamento de Inmigración del Ministerio de Relaciones Exteriores, analiza los datos del solicitante."
+        "System For All es tu socio confiable en soluciones de software innovadoras y personalizadas. Trabajamos para impulsar la eficiencia y el éxito de tu empresa a través de tecnología avanzada y servicios de desarrollo de software de alta calidad."
       ]
     },
     {
-      "tag": "para_quienes_es_la_visa_temporaria",
+      "tag": "servicios",
       "patterns": [
-        "para quienes es la visa temporaria",
-        "para quienes esta dirigido la visa temporaria",
-        "a quien esta dirigido la visa temporaria"
+        "que servicios ofrece",
+        "que productos ofrece",
+        "que hace system for all",
+        "que hace la empresa",
+        "que ofrece system for all",
+        "que ofrece la empresa",
+        "catalogo",
+        "a que se dedica la empresa"
       ],
       "responses": [
-        "Está dirigido a los extranjeros, padres, cónyuges e hijos de residentes."
+        "System For All se especializa en una variedad de servicios, desde Desarrollo Web y Móvil hasta Diseño Web, Pentesting, Testing de Aplicaciones y DevOps. Nuestro objetivo es ofrecer soluciones integrales que impulsen el crecimiento y el rendimiento de tu negocio."
       ]
     },
     {
-      "tag": "para_que_sirve_la_visa_temporaria",
+      "tag": "contacto",
       "patterns": [
-        "para que sirve la visa temporal", 
-        "que utilidad tiene la visa temporaria",
-        "que beneficios tiene la visa temporaria",
-        "que me permite hacer la visa temporaria",
-        "que puedo realizar con la visa temporaria"
+        "como me contacto",
+        "como me comunico",
+        "quiero enviar un mensaje",
+        "quiero contratar"
       ],
       "responses": [
-        "La visa temporaria Permite trabajar, estudiar y/o realizar actividades comerciales, plazo máximo de duración un año. Existe también la Visa de Residente Temporario Dependiente, la cual se otorga a la familia del titular y no permite trabajar, plazo máximo de duración un año."
+        "¡Genial! Puedes contactarnos enviando un correo a ramirez.ricky2021@gmail.com. Estamos ansiosos por escucharte y discutir cómo podemos contribuir al éxito de tu proyecto."
       ]
     },
     {
-      "tag": "duracion_de_la_visa_temporaria",
+      "tag": "team",
       "patterns": [
-        "duracion visa temporaria",
-        "cuanto tiempo dura la visa temporaria",
-        "cual es el maximo de tiempo de la visa temporaria",
-        "duracion de la visa temporaria",
-        "duracion maxima de la visa temporaria"
+        "quienes conforman la empresa",
+        "quienes conforman system for all",
+        "cual es el equipo de la empresa",
+        "cual es el equipo de system for all"
       ],
       "responses": [
-        "La visa temporaria tiene una duración de máximo de duración un año."
+        "El equipo de System For All está formado por expertos apasionados, incluyendo a Ramirez Pineda Ricky Roy y Flores Sarmiento Kevin Jhoel. Nos dedicamos a ofrecer soluciones tecnológicas excepcionales y personalizadas para nuestros clientes."
       ]
     },
     {
-      "tag": "requisitos_de_la_visa_temporaria",
+      "tag": "ubicacion",
       "patterns": [
-        "requisitos visa temporaria",
-        "requisitos de la visa temporal",
-        "que papeles necesito para la visa temporaria",
-        "que documentos necesito para la visa temporaria",
-        "pasos para la visa temporaria"
+        "donde se encuentra la empresa",
+        "ubicacion de system for all",
+        "direccion de system for all",
+        "direccion de la empresa"
       ],
       "responses": [
-        " - Carta dirigida al Cónsulado, señalando los motivos de avecindamiento. \n  - Certificado de Antecedentes Penales. \n - Certificado Médico \n - Pasaporte vigente. \n - 4 fotos tamaño pasaporte. \n - Certificado de Parentesco cuando se trata de un familiar. \n - Si viaja a realizar su práctica profesional, debe tener compromiso de los padres o tutor de respaldarlo económicamente."
+        "Nuestra sede principal está ubicada en Bolivia. Sin embargo, operamos de manera global y estamos siempre conectados para servir a nuestros clientes en cualquier parte del mundo."
       ]
     },
     {
-      "tag": "obtencion_pasaporte_chileno",
+      "tag": "clientes",
       "patterns": [
-        "obtencion pasaporte chileno",
-        "obtener pasaporte chileno",
-        "solicitar pasaporte en el exterior",
-        "que es el pasaporte chileno"
+        "quienes son los clientes",
+        "empresas que han trabajado con ustedes",
+        "testimonios de clientes"
       ],
       "responses": [
-        "Permite que chilenos en el exterior puedan solicitar un pasaporte en caso de pérdida, robo, hurto o vencimiento del documento. El trámite se puede realizar durante todo el año."
+        "Hemos tenido el privilegio de trabajar con una variedad de clientes, desde startups hasta grandes empresas. Nuestro enfoque en la satisfacción del cliente ha llevado a relaciones comerciales exitosas y testimonios positivos."
       ]
     },
     {
-      "tag": "dirigido_pasaporte_chileno",
+      "tag": "tecnologias",
       "patterns": [
-        "a quien esta dirigido el tramite de pasaporte chileno",
-        "quienes pueden obtener el pasaporte chileno en el exterior",
-        "personas que pueden solicitar pasaporte chileno en el extranjero"
+        "que tecnologias utilizan",
+        "tecnologias de system for all",
+        "frameworks que usan",
+        "lenguajes de programacion que utilizan"
       ],
       "responses": [
-        "Chilenos que se encuentran en el exterior."
+        "En System For All, utilizamos las últimas tecnologías y frameworks en el desarrollo de software. Algunas de nuestras herramientas clave incluyen Laravel, Express.js, React.js, Vue.js, FastAPI, Flask, Docker y GraphQL. Además, aprovechamos servicios en la nube como AWS y Digital Ocean para garantizar soluciones eficientes y de vanguardia. También integramos pasarelas de pago como Stripe y Pagofacil para brindar una experiencia completa a nuestros clientes."
       ]
     },
     {
-      "tag": "requisitos_pasaporte_chileno",
+      "tag": "carrera",
       "patterns": [
-        "requisitos pasaporte chileno",
-        "requisitos para el pasaporte chileno",
-        "que necesito para el tramite del pasaporte chileno",
-        "documentacion pasaporte chileno",
-        "documentos necesarios para pasaporte chileno en el extranjero",
-        "requisitos para renovar pasaporte chileno",
-        "que papeles necesito para el pasaporte chileno"
+        "como unirme al equipo",
+        "oportunidades laborales",
+        "vacantes disponibles",
+        "proceso de contratacion"
       ],
       "responses": [
-        "- Acreditar la nacionalidad chilena, a través de la cédula de identidad o pasaporte anterior. \n - Cédula de identidad vigente. Si expiró, el beneficiario tiene que tramitar ambos documentos. \n- Los menores de 18 años deben presentarse con ambos padres. En caso contrario, con la autorización notarial del progenitor ausente, o la copia de la sentencia del cuidado personal del menor. \n- En caso de extravío, robo o hurto del documento, se requerirá la denuncia policial respectiva si el país permite realizar tal trámite."
+        "Nos encanta recibir nuevos talentos en nuestro equipo. Para conocer nuestras oportunidades laborales actuales y el proceso de contratación, visita nuestra sección de Carreras en nuestro sitio web o envíanos tu currículum a ramirez.ricky2021@gmail.com."
       ]
     },
     {
-      "tag": "como_hacer_tramite_pasaporte",
+      "tag": "seguridad_privacidad",
       "patterns": [
-        "tramite pasaporte chileno",
-        "como y donde hacer el trámite de pasaporte chileno",
-        "procedimiento para solicitar pasaporte chileno en el extranjero",
-        "donde solicitar pasaporte chileno",
-        "solicitar pasaporte chileno"
+        "como manejan la seguridad de datos",
+        "politicas de privacidad",
+        "seguridad de la informacion"
       ],
       "responses": [
-        "Tome contacto con el consulado chileno ( https://www.consulado.gob.cl/redes/chile-en-el-mundo ) respectivo a efectos de agendar cita para la solicitud de un pasaporte ordinario."
+        "La seguridad de los datos es una prioridad para nosotros. Implementamos medidas robustas para proteger la información de nuestros clientes. Puedes revisar nuestras políticas de privacidad en nuestro sitio web para obtener más detalles."
       ]
     },
     {
-      "tag": "plazos_entrega_pasaporte_chileno",
+      "tag": "planes_desarrollo",
       "patterns": [
-        "plazo de entrega pasaporte chileno",
-        "cuanto tiempo tarda la entrega del pasaporte chileno en el extranjero",
-        "plazos para obtener pasaporte chileno en consulado",
-        "tiempo de espera para recibir pasaporte chileno"
+        "futuros planes de desarrollo",
+        "nuevas características",
+        "servicios futuros"
       ],
       "responses": [
-        "Si el consulado cuenta con estación de captura (Sistema de identificación en línea), obtendrá el documento en aproximadamente un mes, plazo que puede fluctuar. Si la oficina consular no tiene máquina de captura, al interesado le tomarán canje de Impresiones Dactilares (huellas) en un formulario de solicitud manual que será remitido al Servicio de Registro Civil de Santiago (SRCel), trámite que puede demorar estimativamente tres meses o más."
-      ]
-    },
-    {
-      "tag": "costo_pasaporte_chileno",
-      "patterns": [
-        "costo del pasaporte chileno",
-        "cuanto cuesta el pasaporte chileno en el extranjero",
-        "tarifas para obtener pasaporte chileno en consulado",
-        "precio del pasaporte chileno",
-        "precio de los documentos de los tramites del pasaporte chileno"
-      ],
-      "responses": [
-        "- Pasaporte de 32 páginas: US$ 91 o su equivalente en moneda local. \n- Pasaporte de 64 páginas: US$ 92 o su equivalente en moneda local. \n- Los valores indicados mantienen el arancel consular adicional de US$ 3. \n- Importante: estos costos pueden variar, según las alzas que determine el Servicio de Registro Civil e Identificación (SRCeI) y la fluctuación del dólar americano."
-      ]
-    },
-    {
-      "tag": "renovacion_pasaporte_chileno",
-      "patterns": [
-        "como renovar el pasaporte chileno en el extranjero",
-        "renovar pasaporte chileno en consulado",
-        "renovacion de pasaporte chileno"
-      ],
-      "responses": [
-        "El trámite se puede realizar durante todo el año. El pasaporte chileno tiene una vigencia de 5 años. Si el documento está vencido, el interesado debe solicitar un nuevo pasaporte. Si el pasaporte está vigente, el interesado puede solicitar un nuevo pasaporte."
-      ]
-    },
-    {
-      "tag": "desde_aqui_pasaporte_chileno_vencido",
-      "patterns": [
-        "que hacer si el pasaporte chileno esta vencido",
-        "pasaporte chileno vencido",
-        "pasaporte chileno vencido en el extranjero"
-      ],
-      "responses": [
-        "Si el pasaporte está vencido, el interesado debe solicitar un nuevo pasaporte. Si el pasaporte está vigente, el interesado puede solicitar un nuevo pasaporte."
-      ]
-    },
-    {
-      "tag": "pasaporte_chileno_perdido",
-      "patterns": [
-        "que hacer si el pasaporte chileno esta perdido",
-        "pasaporte chileno perdido",
-        "pasaporte chileno perdido en el extranjero"
-      ],
-      "responses": [
-        "Si el pasaporte está perdido, el interesado debe solicitar un nuevo pasaporte en el consulado."
-      ]
-    },
-    {
-      "tag": "pasaporte_chileno_robado",
-      "patterns": [
-        "que hacer si el pasaporte chileno esta robado",
-        "pasaporte chileno robado",
-        "pasaporte chileno robado en el extranjero"
-      ],
-      "responses": [
-        "Si el pasaporte está robado, el interesado debe solicitar un nuevo pasaporte en el consulado."
+        "Estamos constantemente evolucionando para satisfacer las crecientes necesidades del mercado. En el futuro, planeamos introducir nuevas características y servicios emocionantes. Mantente informado visitando nuestra sección de noticias o siguiéndonos en nuestras redes sociales para conocer las últimas actualizaciones."
       ]
     }
   ]
